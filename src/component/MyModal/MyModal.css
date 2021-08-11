@@ -1,0 +1,46 @@
+.modal_container{
+    height:90%;
+    width:90%;
+
+}
+.delete_modal{
+float: right;
+}
+.delete{
+    margin-top: 15px ;
+    margin-right: 20px;
+ 
+   cursor: pointer;
+}
+.delete_modal>svg{
+    height: 36px;
+    width: auto;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.modal_content{
+    margin-top: 14rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pikachu{
+    height: 195px;
+    width: auto;
+}
+@media (max-width:700px){
+   .delete_modal>svg{
+       height: 26px;
+       width: auto;
+   }
+   .modal_content{
+       margin-top: 11rem;
+   }
+}

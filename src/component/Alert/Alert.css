@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+.alert{
+    text-align: center;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.6;
+}
+.alert-container{
+    
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    width: 100%;
+
+}
+.success{
+
+    background-color: rgba(104, 228, 104, 0.767);
+    color:white;
+}
+.error{
+    background-color: rgb(255 0 0 / 26%);
+    color: white;
+}

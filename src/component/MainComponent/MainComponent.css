@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+height: 100vh;
+width: 100%;
+ 
+position: relative;
+ 
+  background-image: url('https://wallpaperaccess.com/full/1332262.jpg');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.form_box{
+ 
+height: 40vh;
+width: 40%;
+ 
+display: flex;
+justify-content: center;
+align-items: center;
+background-color:#e5e5dc ;
+box-shadow: 18px 15px 2px #2e2c2d ;  
+background-image: linear-gradient(to right,#e5e5dc,#e5e5dc,transparent),url('../../bg.png');
+background-position: right;
+background-repeat: no-repeat;
+background-size: cover;
+transition: all 0.3s ease-in;
+border-radius: 15px;
+}
+ 
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+input{
+    width: 360px;
+    text-align: center;
+    padding: 6px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    border-radius: 3px;
+    font-family: 'Merriweather', serif;
+    
+  
+}
+input:hover{
+    box-shadow: 3px 3px 11px #5e5d5d;
+}
+@media (max-width:700px){
+    .form_box{
+        width: 85%;
+        margin-top: 50px;
+        box-shadow: 10px 8px 2px #2e2c2d ;  
+    }
+    input{
+        width: 90%;
+        padding: 2px 4px;
+        font-size: 15px;
+    }
+}
